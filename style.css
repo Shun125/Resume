@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(45deg, #e6be90, #e7e0de);
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  background: linear-gradient(to bottom, #8ad5f5, #5a55d6);
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header img {
+  position: absolute;
+  bottom: 38%;
+  left: 41%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+header .text-area {
+  position: absolute;
+  left: 43%;
+  top: 60%;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+}
+
+.area1 {
+  width: 100vw;
+  background: linear-gradient(to bottom, #e6be90, #ea9683);
+  border-top: 1px solid #f3efef;
+}
+.area1 .text-area {
+  color: #f1e5dd;
+  text-align: center;
+}
+.area1 .text-area .divid {
+  margin-left: 7%;
+  width: 80vw;
+  border-top: 2px solid #f1e5dd;
+}
+.area1 .text-area p {
+  height: 2em;
+}
+
+.area2 {
+  width: 100vw;
+  background: linear-gradient(to bottom, #8ad5f5, #5a55d6);
+  border-top: 1px solid #f3efef;
+}
+.area2 .text-area {
+  color: #f1e5dd;
+  text-align: center;
+}
+.area2 .text-area .divid {
+  margin-left: 7%;
+  width: 80vw;
+  border-top: 2px solid #f1e5dd;
+}
+.area2 .text-area p {
+  height: 2em;
+}/*# sourceMappingURL=style.css.map */
